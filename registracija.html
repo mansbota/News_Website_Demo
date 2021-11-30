@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>Franceinfo</title>
+        <meta charset='UTF-8'>
+        <meta name='description' content='Franceinfo'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class='centered'>
+                <img src="img/logo.png" id='logo' alt="logo">
+            </div>
+
+            <nav>
+                <ul class='centered'>
+                    <li><a href="index.php">home</a></li>
+                    <li><a href="kategorija.php?id=politika">politika</a></li>
+                    <li><a href="kategorija.php?id=kultura">kultura</a></li>
+                    <li><a href="unos.html">unos</a></li>
+                    <li><a href="administracija.php">admin</a></li>
+                    <li><a href="registracija.html">register</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class = "centered">
+            <form enctype="multipart/form-data" action="registracija_2.php" method="POST" id="registracija">
+                <div class="form-item">
+                    <span id="porukaIme" class="bojaPoruke"></span>
+                    <label for="title">Ime: </label>
+                    <div class="form-field">
+                        <input type="text" name="ime" id="ime" class="form-fieldtextual">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <span id="porukaPrezime" class="bojaPoruke"></span>
+                    <label for="about">Prezime: </label>
+                    <div class="form-field">
+                        <input type="text" name="prezime" id="prezime" class="formfield-textual">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <span id="porukaUsername" class="bojaPoruke"></span>
+                    <label for="content">Korisničko ime:</label>
+                    <br> <span class="bojaPoruke"></span>
+                    <div class="form-field">
+                        <input type="text" name="username" id="username" class="formfield-textual">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <span id="porukaPass" class="bojaPoruke"></span>
+                    <label for="pphoto">Lozinka: </label>
+                    <div class="form-field">
+                        <input type="password" name="pass" id="pass" class="formfield-textual">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <span id="porukaPassRep" class="bojaPoruke"></span>
+                    <label for="pphoto">Ponovite lozinku: </label>
+                    <div class="form-field">
+                        <input type="password" name="passRep" id="passRep" class="form-field-textual">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <button type="submit" value="Prijava" id="slanje">Registriraj se</button>
+                </div>
+            </form>
+            
+            <script src="js/register-validation.js"></script>
+
+        </section>
+
+        <footer>
+            <div class='centered'>
+                <p>france.tv</p>
+            </div>
+        </footer>
+    </body>
+</html>

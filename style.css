@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 16px;
+    color: rgb(95, 95, 95);
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+footer {
+    height: 90px;
+    background-color: rgb(236, 236, 236);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.centered {
+    max-width:1000px;
+    margin: auto;
+}
+
+#logo {
+    height: 40px;
+    width: 270px;
+    margin-top: 50px;
+}
+
+nav {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li a {
+    text-align: center;
+    padding: 14px 55px;
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li a:hover {
+    color: orange;
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
+
+section a:hover {
+    color: orange;
+}
+
+section {
+    border-bottom: 1px solid lightgray;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+article {
+    float: left;
+    width: 227px;
+    min-height: 280px;
+    padding-right: 11px;
+    padding-left: 11px;
+}
+
+#politics article {
+    float: left;
+    max-width: 190px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#politics img {
+    width: 175px;
+    height: 110px;
+}
+
+#sport article {
+    float: left;
+    width: 227px;
+    padding-right: 11px;
+    padding-left: 11px;
+}
+
+section img {
+    width: 210px;
+    height: 150px;
+}
+
+#sport img {
+    width: 210px;
+    height: 150px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+footer p {
+    text-align: right;
+    padding-top: 24px;
+}
+
+#article img{
+    width: 1000px;
+    height: 600px;
+}
+
+#article {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+#article p {
+    text-align: left;
+}
+
+form {
+    margin-top: 36px;
+    margin-bottom: 130px;
+}
+
+#edit {
+    margin-bottom: 90px;
+}
+
+span {
+    color :red;
+}
+
+#registracija {
+    border: 2px solid orange;
+    padding: 45px;
+    margin: 100px 300px;
+    border-radius: 15px;
+    background-color: rgb(241, 229, 229);
+}
+
+.message {
+    text-align: center;
+    margin: 220px 0px;
+    padding: 60px 100px;
+    border: 2px dashed orange;
+}
